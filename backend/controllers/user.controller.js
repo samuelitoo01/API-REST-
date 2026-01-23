@@ -6,7 +6,7 @@ try{
     let data = await obtenerUsuarios();
     return res.status(200).json({
         message : 'Todos los usuarios se han obtenido con exito ' , 
-        res : data
+        res : data 
     })
 
 }catch(e){
@@ -95,7 +95,7 @@ try{
             message : 'Por favor complete los campos '
         })
     }
-    
+
     const data = await actualizarusuario(id , {nombre , correo });
     
     if(data.affectedRows === 0 ){
