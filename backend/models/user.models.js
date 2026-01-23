@@ -59,3 +59,13 @@ try{
 }
 }
 
+export async function actualizarusuario(id , datos ) {
+
+    const { nombre , correo } = datos 
+
+    const [result] = await poolConec.query('UPDATE usuarios SET nombre = ? , correo = ? WHERE id = ?' , 
+        [nombre , correo , id ]
+    )
+
+    return result
+}
