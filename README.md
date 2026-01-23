@@ -11,7 +11,7 @@ A RESTful API built with Node.js and Express for managing users with full CRUD o
 
 ## 📋 Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have the following installed: 
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [MySQL](https://www.mysql.com/) (v8.0 or higher)
